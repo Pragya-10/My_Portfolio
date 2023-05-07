@@ -4,7 +4,7 @@ services:
   frontend:
     container_name: frontend
     build: 
-      context: ./index.html
+      context: ./
       dockerfile: Dockerfile
     ports:
       - "8000:80"
